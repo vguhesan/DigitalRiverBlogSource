@@ -1,4 +1,4 @@
-baseurl = "htts://DigitalRiver.blog/"
+baseurl = "https://DigitalRiver.blog/"
 disqusShortname = "mythinkpond"
 googleAnalytics = "G-DB3YV9JEG7"
 languageCode = "en-us"

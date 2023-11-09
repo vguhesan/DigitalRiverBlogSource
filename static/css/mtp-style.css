@@ -40,6 +40,7 @@ body {
 .logo__title > sub {
 	vertical-align: baseline;
 	text-transform: none;
+	color: #FFDD04;
 }
 
 .header {

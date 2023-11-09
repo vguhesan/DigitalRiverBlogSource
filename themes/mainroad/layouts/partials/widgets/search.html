@@ -1,0 +1,21 @@
+<div class="widget-search widget">
+	<h4 class="widget__title" id="searchwrappertitle">Search</h4>
+	<div class="widget__content" id="searchwrapper" style="text-align: center; padding-top: 15px;">
+	<form class="widget-search__form" role="search" method="get" action="https://search.freefind.com/find.html" target="mtpsearch">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="{{ T "search_placeholder" }}" value="" name="query" aria-label="{{ T "search_placeholder" }}">
+			<input type="hidden" name="si" value="81099687">
+			<input type="hidden" name="pid" value="r">
+			<input type="hidden" name="n" value="0">
+			<input type="hidden" name="_charset_" value="">
+			<input type="hidden" name="bcd" value="&#247;">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}" />
+	</form>
+	</div>
+</div>
+<style>
+	.widget-search__field {font-family:"Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif; font-size: 15px; border: 1px solid #ABB0B2;  -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #343434; background-color: #fff; box-sizing:border-box; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top;}
+	.widget-search__form {background: none;}
+</style>

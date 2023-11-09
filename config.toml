@@ -1,0 +1,61 @@
+baseurl = "htts://DigitalRiver.blog/"
+disqusShortname = "mythinkpond"
+googleAnalytics = "G-DB3YV9JEG7"
+languageCode = "en-us"
+paginate = "25"
+theme = "mainroad"
+title = "Digital River"
+enableEmoji = true
+
+[Author]
+	avatar = "/img/common/VenkattGuhesan_Aug2017.jpg"
+	bio = "Enterprise Software Architect and Developer currently working at Leidos as a consultant for the Modern Development Environment Group at SSA.gov developing the next generation of DevOps solutions and services. My passions include all things Open Source including Java, Python, GoLang, JavaScript, Linux, Arduino, ARM, Embedded Devices, Web Development and micro controllers. Coming from an Electrical and Computer Engineering background, working in developing and designing enterprise grade distributed, highly scalable software requires a unique set of software skills with a good understanding of the hardware. This makes my work challenging and interesting each and every day. I enjoy spending my free time with my family, friends and our pet dog. I enjoy researching on topics including - world ancient history, yoga, science, biology, chemistry and all things interesting. Visit the 'About' section up top for more details."
+	name = "Venkatt Guhesan"
+
+[Params]
+	authorbox = true
+	emailsignup = true
+	description = "Venkatt Guhesan's personal blog on all things interesting."
+	leftsidebar = false
+	opengraph = true
+	postSections = ["post"]
+	post_navigation = true
+	readmore = false
+	copyright = "DigitalRiver.blog | Blog Owned and Maintained By: Venkatt Guhesan"
+	subtitle = "Blog focused on software development, architecture and best practices for developing applications leveraging webassembly (WASM), Golang, Python, Rust - deployed using Podman, K8s, Docker images onto Google Cloud and AWS."
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[Params.sidebar]
+  	home = "right" # Configure layout for home page
+  	list = "right"  # Configure layout for list pages
+  	single = true # Configure layout for single pages
+  	# Enable widgets in given order
+  	widgets = ["getnotified", "search", "buymeacoffee", "recent", "blogroll", "social", "categories", "taglist",  "languages"]
+
+[Params.widgets]
+	categories = true
+	getnotified = true
+	recent_articles = true
+	recent_articles_num = 5
+	search = true
+	social_facebook = "venkattg"
+	social_linkedin = "venkatt-guhesan-6956431"
+	social_twitter = "vguhesan"
+	social_mastodon = "@vguhesan"
+	tags = true
+	tags_counter = false
+
+[[menu.main]]
+	name = "Home"
+	pre = "<i class='fa fa-home'></i>"
+	url = "/"
+	weight = 1
+
+[[menu.main]]
+	identifier = "about"
+	name = "About"
+	pre = "<i class='fa fa-heart'></i>"
+	url = "/about/"
+	weight = 2

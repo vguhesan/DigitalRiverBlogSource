@@ -2,7 +2,11 @@
 	{{- if .Params.thumbnail }}
 	<figure class="list__thumbnail">
 		<a href="{{ .Permalink }}">
-			<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" />
+			{{- if (strings.HasSuffix .Params.thumbnail ".svg") }}
+			<object data="{{ .Params.thumbnail | relURL }}" width="100" height="100"> </object>
+			{{- else }}
+			<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}"/>
+			{{- end }}
 		</a>
 	</figure>
 	{{- end }}

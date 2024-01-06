@@ -5,6 +5,7 @@ date = "2020-05-26"
 categories = ["Python"]
 tags = ["Python", "DateTime", "timedelta", "Interval", "Humanize", "Arrow", "time difference"]
 thumbnail = "/img/logo/python_logo2.png"
+lead = "Python humanize time interval without Arrow or Humanize libraries"
 +++
 
 > **tl;dr** Sometimes when we need to debug functions in Python, we need a way to write some quick timer code to capture the time-delta and to compute the time it took for the function to execute. This article shows you a quick and easy way to humanize a time-interval/time-delta without bringing in additional dependencies or libraries like Arrow or Humanize.

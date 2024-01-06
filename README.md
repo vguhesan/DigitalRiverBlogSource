@@ -28,6 +28,8 @@ hugo new post/2017-10-28-{title}.md
 EXAMPLE:
 $ hugo new post/2019-09-06-Spring-Framework-Three-Ways-To-Application-Context.md
 
+**As of Jan 2024, we are hosting the website via GitHub Pages (no need to use the Google Firebase options)**
+
 Google Firebase Hosting:
 https://firebase.google.com/docs/hosting/quickstart
 

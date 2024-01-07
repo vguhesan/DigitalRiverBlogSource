@@ -53,7 +53,7 @@ In either one of the two cases, when you land in India and you activate the loca
 
 In India 600 MHz, 700 MHz, 800 MHz, 900 MHz, 1800 MHz, 2100 MHz, 2300 MHz, 2500 MHz, 3300 MHz, 26 GHz bands are currently in use for mobile 5G services. Out of this list, for the 5G spectrum, they utilize the following specific bands: **n71, n28, n5, n8, n3, n1, n40, n41, n78, n257/n258**. These bands are autctioned out in India to the telecom companies. The telecom companies bid for these bands within each state (28 states total in India). As of writing this article in January 5th, 2024, here are the specific bands allocated to each provider. This is the general scope without going into the state specifics on the "Telecom Circles" which we will cover later in this article.
 
-{{<figure src="img/5g-band-coverage-india.png" width="80%" class="aligncenter round-img-border imgframe-left-pad" >}}
+{{<figure src="img/5g-band-coverage-india.png" class="aligncenter round-img-border imgframe-left-pad" >}}
 
 <mark>**You can stop at this level - if all your concern is general availability and not further tuning of the bands to your state/telecom circle.**</mark>
 
